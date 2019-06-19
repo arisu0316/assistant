@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Journal(model.Model):
+class Journal(models.Model):
     content = models.TextField("內容")
     created = models.DataField(auto_now_add=True)
 
